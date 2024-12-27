@@ -26,8 +26,7 @@ public class Main {
         printArrayMain3();
         // задание 13
         printArray4Main();
-        // задание 14
-        printArray5Main();
+
     }
 
     // задание 1
@@ -242,31 +241,6 @@ public class Main {
 
     // Метод для вывода двумерного массива
     private static void printArray4(int[][] array) {
-        for (int[] row : array) {
-            for (int value : row) {
-                System.out.print(value + " ");
-            }
-            System.out.println(); // Перевод строки после каждой строки массива
-        }
-    }
-    // задание 14
-    public static void printArray5Main() {
-        System.out.println("задание 14:");
-        int n = 5; // Размерность массива (количество строк и столбцов)
-        int[][] array = new int[n][n]; // Создаем квадратный массив
-
-        // Заполняем диагональные элементы единицами
-        for (int i = 0; i < n; i++) {
-            array[i][i] = 1; // Заполняем элемент на диагонали
-        }
-
-        // Выводим массив
-        System.out.println("Массив с диагональными элементами:");
-        printArray5(array);
-    }
-
-    // Метод для вывода двумерного массива
-    private static void printArray5(int[][] array) {
         for (int[] row : array) {
             for (int value : row) {
                 System.out.print(value + " ");
