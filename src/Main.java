@@ -23,20 +23,20 @@
             };
 
             try {
-                int result = processArray(validArray);
+                int result = ArrayProcessor.processArray(validArray);
                 System.out.println("Сумма элементов массива: " + result);
             } catch (MyArraySizeException | MyArrayDataException e) {
                 System.out.println(e.getMessage());
             }
 
             try {
-                processArray(invalidSizeArray);
+                ArrayProcessor.processArray(invalidSizeArray);
             } catch (MyArraySizeException | MyArrayDataException e) {
                 System.out.println(e.getMessage());
             }
 
             try {
-                processArray(invalidDataArray);
+                ArrayProcessor.processArray(invalidDataArray);
             } catch (MyArraySizeException | MyArrayDataException e) {
                 System.out.println(e.getMessage());
             }

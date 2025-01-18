@@ -13,7 +13,7 @@ class MyArrayDataException extends Exception {
     }
 }
 
-public class ArrayProcessor {
+class ArrayProcessor {
 
     public static
 
