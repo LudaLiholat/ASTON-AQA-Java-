@@ -245,7 +245,7 @@ public class Main {
             for (int value : row) {
                 System.out.print(value + " ");
             }
-            System.out.println(); // Перевод строки после каждой строки массива
+             // Перевод строки после каждой строки массива
         }
     }
 
