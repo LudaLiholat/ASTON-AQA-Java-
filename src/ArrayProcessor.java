@@ -1,4 +1,13 @@
-package PACKAGE_NAME;
 
-public class ArrayProcessor {
+class MyArraySizeException extends Exception {
+    public MyArraySizeException(String message) {
+        super(message);
+    }
+}
+
+
+class MyArrayDataException extends Exception {
+    public MyArrayDataException(String message) {
+        super(message);
+    }
 }
